@@ -133,3 +133,24 @@ if ((ssc >= 3.0 || goodAtEnglish == true) && (isbcs == false && hsc >=3.0)){
 else{
     console.log("you are not a teacher");
 }
+
+//---------------------logical not operator---------------------------//
+const isResultGood = true;
+// if (isResultGood === true)
+// if (!!isResultGood)
+if (isResultGood){
+    console.log('biryani khaaa!');
+}
+else{
+    console.log('muriii khaaa!');
+}
+
+const phet_bhora = false;
+// if (phet_bhora === false)
+// if (!!!phet_bhora)
+if (!phet_bhora){
+    console.log('kacchi khaaa');
+}
+else{
+    console.log('payesh khaaa');
+}

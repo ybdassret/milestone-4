@@ -2,6 +2,12 @@
 5 things to declear a variable
 */
 
+//const : value will not be changed
+//let : value will be changed
+//var : we should not use it (old way)
+
+
+
 /*
 // 1. no keyword in varibale name 
 var var = "hello"; // invalid
