@@ -17,6 +17,12 @@ while (i <= 5){
     i += 1 ;
 }
 
+let h = 20;
+while(h >= 11){
+    console.log(h);
+    h -= 1;
+}
+
 //--------------------sum-loop--------------------
 let num1 = 2 ;
 let sum = 2;
