@@ -65,3 +65,40 @@ for(let age2 = 10; age2 >= 0; age2--){
     console.log(age2);
 }
 
+// continue --> skip the current iteration and move to the next one
+// break --> exit the loop entirely
+
+for(let jojo = 1; jojo <= 20; jojo++){
+    if(jojo >= 10){
+        break;
+    }
+    console.log(`ami bhat khai ${jojo} bar`);
+}
+
+let anika = 1;
+while(anika <= 20){
+    anika++ ;
+    if(anika % 2 === 1){
+        continue;
+    }
+    console.log(anika);
+}
+for(let muna = 12; muna>=1; muna--){
+    if(muna % 3 !==0){
+        continue;
+    }
+    console.log(muna);
+}
+
+//-----------------------do-while-loop------------------------
+//first execute then check condition
+// let j = 1;
+let k = 6;
+do{
+    console.log(k);
+    k++ ;
+}
+while(k <= 5)
+
+//for of --> array
+//for in --> object
