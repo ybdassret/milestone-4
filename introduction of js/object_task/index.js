@@ -50,3 +50,10 @@ for(const b in myObject){
     // console.log('key:', b, '|', 'typr:', typeof myObject[b] );
 }
 
+// const a = ["name", "age", "city", "isStudent"];
+// i = 0;
+// while(i < a.length){
+//     console.log('key:', a[i], '|', 'typr:', typeof myObject[a[i]] );
+//     i++ ;
+// }
+

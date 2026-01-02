@@ -3,7 +3,7 @@ const capital = "dhaka";
 const city = `mirpur`;
 const numbers = [1, 2, 3, 4, 5];
 
-// const area = new String('boro bhag');
+// const city = new String('boro bhag');
 // console.log(area);
 
 //string is immutable --> not changeable
@@ -63,7 +63,7 @@ const joinword = ['I', 'am', 'learning', 'JavaScript'];
 //---------reverse a string -1st ---------
 let munaSaid = 'i like beef';
 let reverse = '';
-for(const letter of  munaSaid){
+for(const letter of munaSaid){
     reverse = letter + reverse;
 }
 // console.log(reverse);
