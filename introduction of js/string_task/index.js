@@ -23,7 +23,6 @@
 //     }
 // }
 // console.log(calculate);
-
 //-----------------------task 3-----------------------//
 
 // let sentance = "I love programing and  u";
@@ -57,15 +56,35 @@
 // console.log(fullvowel);
 
 //-----------------------task 4-----------------------//
-let alphaX = " Mr. X live in this country, his dauther name is x".split('');
-let ax;
+let alphaX = 'my name is X';
+// let alphaXindex = 0;
+// while(alphaXindex <= alphaX.length){
+//     if(alphaX[alphaXindex] === 'X'){
+//         alphaX[alphaXindex] = 'Y';
+//     }
+//     alphaXindex++ ;
+// }
+// console.log(alphaX.join(''));
 
+alphaX = alphaX.replace('X', 'Y');
+// console.log(alphaX);
 
-for(const exists of alphaX){
-    if(exists === "X" ){
-        ax = exists.replace('X', 'Y');
+//-----------------------task 5-----------------------//
+let movie = 'i like movies, my fav movie is john wick';
+let final = '';
+let isMovie = false;
+for(let i = 0; i < movie.length; i++){
+    if(movie[i] !== ' ' && isMovie === false){
+        final += movie[i].toUpperCase();
+        isMovie = true;
     }
-}
-console.log(ax);
-console.log(alphaX);
+    else if(isMovie && movie[i] !== ' '){
+        final += movie[i];
+    }
+    else if(movie[i] === ' '){
+        final += movie[i];
+        isMovie = false;
+    }
 
+}
+// console.log(final);
